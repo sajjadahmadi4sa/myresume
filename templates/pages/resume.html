@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <!-- Resume Section -->
+  <section id="resume" class="resume section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Resume</h2>
+      <p>"Success is built one line of code at a time."</p>
+    </div>
+    <!-- End Section Title -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <h3 class="resume-title">Sumary</h3>
+
+          <div class="resume-item pb-0">
+            <h4>{{name}}</h4>
+            <p>
+              <em>Dedicated and user-focused professional with experience in website support and problem-solving, providing effective solutions to improve user experience and customer satisfaction.
+                <br>  
+                Through direct interaction with users, I have developed a strong understanding of common technical challenges and user needs. Passionate about programming and web development, I am continuously expanding my knowledge in Django and backend development to create efficient, reliable, and meaningful web applications.</em>
+            </p>
+            <ul>
+              <li>{{city}}</li>
+              <li>{{phone}}</li>
+              <li>{{email}}</li>
+            </ul>
+          </div>
+          <!-- Edn Resume Item -->
+
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4> {{education}}</h4>
+            <h5>{{GraduationYear}}</h5>
+            
+            <p>Islamic Azad University, Saveh Branch
+               <br>
+               Completed an Associate Degree in Accounting with a focus on financial principles, bookkeeping, accounting systems, and business fundamentals. During my studies, I developed analytical thinking, problem-solving skills, and a strong understanding of financial processes and organizational management.</p>
+          </div>
+          <!-- Edn Resume Item -->
+
+          <div class="resume-item">
+          </div>
+          <!-- Edn Resume Item -->
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h3>AbanTether Cryptocurrency Exchange</h3>
+            <h4>Customer Support Specialist</h4>
+          
+            <h5>2022 - 2025</h5>
+            <p>
+              <em>TEHRAN - IRAN</em>
+            </p>
+            <ul>
+              <li>Provided customer support and technical assistance by helping users resolve account and platform-related issues through online communication channels. Gained valuable experience in troubleshooting, understanding user needs, and improving customer satisfaction while working in a fast-paced cryptocurrency environment</li>
+            </ul>
+          </div>
+          <!-- Edn Resume Item -->
+
+          <div class="resume-item">
+            <h3>Toman</h3>
+            <h4>Website Support Specialist </h4>
+            <h5>2025 - Present</h5>
+            <p>
+              <em>TEHRAN</em>
+            </p>
+            <ul>
+              <li>Currently working in website support, assisting users with technical issues and providing effective solutions to improve user experience.
+                <br>
+                  Experienced in identifying common challenges, resolving problems efficiently, and maintaining clear communication with customers while continuously improving technical knowledge and problem-solving skills.</li>
+            </ul>
+          </div>
+          <!-- Edn Resume Item -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Resume Section -->
+{% endblock %}
